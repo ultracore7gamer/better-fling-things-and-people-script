@@ -10,7 +10,7 @@ local MainFrameRatio = Instance.new("UIAspectRatioConstraint", MainFrame)
 MainFrameRatio.AspectRatio = 1.5
 MainFrameRatio.AspectType = Enum.AspectType.FitWithinMaxSize
 MainFrameRatio.DominantAxis = Enum.DominantAxis.Width
-MainFrameCorner.CornerRadius = UDim2.new(0, 10)
+MainFrameCorner.CornerRadius = UDim.new(0, 10)
 
 MainFrame.Size = UDim2.new(0.454, 0, 0.383, 0)
 MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
